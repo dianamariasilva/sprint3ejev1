@@ -1,0 +1,58 @@
+/* Agrega aquí tus estilos*/
+@font-face {
+  font-family: My Gill Sans;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../GILLSAN3.eot) format("embedded-opentype"),url(../GILLSAN3.woff) format("woff")
+	}
+
+body:not(h1) {
+	padding: 0 20px;
+  	margin: 5em 1% 19em 3%;
+  	background-image: url(fondo.jpg);
+  	color: #333;
+  	font: 1.156em/1.3 Gill Sans MT, Gill Sans, My Gill Sans, sans-serif;
+  	box-shadow: 0 .3em 1em #000 
+  	}
+
+@supports (column-span: all) {
+ 	body {columns: 30em; column-gap: 50px
+		} 
+	}
+
+a:link {
+    color: purple; 
+	}
+
+a:visited {
+    color: #578F42;
+	}
+
+a.hover{
+	background-color: green; 
+	}
+
+h1 {
+	color: #277C05;
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    font-style: italic;
+    border:double;
+}
+
+div>h3 {
+	color: lime
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted;
+  }
+
+div::first-letter{
+	font-size: 200%;
+}
+
+.benefits::nth-child(4){
+	background: grey;
+}
