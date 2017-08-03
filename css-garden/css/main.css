@@ -18,7 +18,6 @@ header {
     padding: 40px;
     background: #dddddd;
     border-top-right-radius: 10em;
-    border-bottom-left-radius: 10em;
     background-image: url(../img/portada1.jpg);
 }
 
@@ -60,8 +59,8 @@ a.hover{
     background-color: green; 
 }
 
-div {
-    font-family: myFirstFont;
+.design {
+    background: purple;
 }
 
 .summary {
