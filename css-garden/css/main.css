@@ -115,8 +115,11 @@ a.hover{
 .benefits{
     height: 120px;
     width: 640px;
+    padding-bottom: 20px;
 }
-
+.requirements{
+    padding-top: 80px;
+}
 .main{
     columns: 2;
 }
