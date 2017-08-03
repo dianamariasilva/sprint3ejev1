@@ -55,6 +55,12 @@ a:visited {
     color: #578F42;
 }
 
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 a.hover{
     background-color: green; 
 }
@@ -140,6 +146,16 @@ nav ul li:hover{
     box-shadow:  1px -1px 0px #999;
     border:1px solid purple;
 }
+.resources, .select, .archives{
+    font-style: Verdana;
+    text-decoration: none;
+    font-size: 200%;
+    letter-spacing: 4px;
+    text-align: left;
+    text-shadow: none;
+    background: purple;
+    color:white;
+}
 #footer {
    position:fixed;
    left:0px;
@@ -152,4 +168,7 @@ nav ul li:hover{
 * html #footer {
    position:absolute;
    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+p::first-letter{
+    font-size: 200%;
 }
